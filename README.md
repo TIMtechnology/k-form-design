@@ -1,4 +1,4 @@
-# 表单设计器 k-form-design
+# k-form-design-fix 基于k-form-design 修改版
 
 <p align="center">
   <a href="https://github.com/vuejs/vue">
@@ -43,18 +43,18 @@
 ## 安装
 ```cmd
 # 使用yarn 
-yarn add k-form-design
+yarn add k-form-design-fix
 
 # 使用npm 
-npm i k-form-design --save
+npm i k-form-design-fix --save
 ```
 
 ## 引入组件
 ``` javascript
 // 在main.js引入
 
-import KFormDesign from 'k-form-design'
-import 'k-form-design/lib/k-form-design.css'
+import KFormDesign from 'k-form-design-fix'
+import 'k-form-design-fix/lib/k-form-design-fix.css'
 Vue.use(KFormDesign)
 ```
 
