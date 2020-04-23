@@ -18,7 +18,7 @@
       :data="optionsData"
       :fileList="fileList"
       :action="record.options.action"
-      accept="image/gif, image/jpeg, image/png"
+      accept="image/gif, image/jpeg, image/png, image/jpg"
       @change="handleChange"
       @preview="handlePreview"
       :remove="remove"

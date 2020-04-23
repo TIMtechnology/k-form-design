@@ -1,8 +1,8 @@
 {
-  "name": "k-form-design",
-  "version": "3.4.2",
+  "name": "k-form-design-fix",
+  "version": "3.4.3",
   "private": false,
-  "description": "基于vue、ant-design-vue的表单设计器,可视化开发表单",
+  "description": "基于k-form-design进行定制化修改",
   "license": "MIT",
   "author": "kchengz",
   "keywords": [
@@ -15,17 +15,17 @@
     "工作流"
   ],
   "bugs": {
-    "url": "https://github.com/Kchengz/k-form-design/issues"
+    "url": "https://github.com/TIMtechnology/k-form-design"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kchengz/k-form-design"
+    "url": "https://github.com/TIMtechnology/k-form-design"
   },
   "main": "lib/k-form-design.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name k-form-design --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name k-form-design-fix --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

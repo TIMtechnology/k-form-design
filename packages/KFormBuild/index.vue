@@ -99,6 +99,7 @@ export default {
             if (this.outputString) {
               // 需要所有value转成字符串
               for (let key in values) {
+                console.log(key)
                 let type = typeof values[key];
                 if (type === "string" || type === "undefined") {
                   continue;
@@ -126,6 +127,7 @@ export default {
           if (this.outputString) {
             // 将非string数据还原
             for (let key in json) {
+               console.log(key)
               if (!json[key].startsWith("k-form-design#")) {
                 continue;
               }
