@@ -1,10 +1,10 @@
 {
   "name": "k-form-design-fix",
-  "version": "3.4.3",
+  "version": "3.4.5",
   "private": false,
   "description": "基于k-form-design进行定制化修改",
   "license": "MIT",
-  "author": "kchengz",
+  "author": "TIMkeji -> power by kchengz",
   "keywords": [
     "ant-design",
     "form",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/TIMtechnology/k-form-design"
   },
-  "main": "lib/k-form-design.umd.min.js",
+  "main": "lib/k-form-design-fix.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

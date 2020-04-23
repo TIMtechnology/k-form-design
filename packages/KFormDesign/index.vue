@@ -180,7 +180,7 @@ export default {
     },
     showHead: {
       type: Boolean,
-      default: true
+      default: false
     },
     toolbarsTop: {
       type: Boolean,
