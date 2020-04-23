@@ -499,6 +499,38 @@ export const basicsList = [
       defaultValue: "<strong>HTML</strong>"
     },
     key: ""
+  },
+  {
+    type: "html",
+    label: "表单标题",
+    icon: "icon-ai-code",
+    options: {
+      defaultValue:'<div style="text-align: center;font-size: 25px;">标题</div>'
+    },
+    key: ""
+  },
+  {
+    type: "cascader", // 表单类型
+    label: "省市区选择", // 标题文字
+    icon: "icon-guanlian",
+    options: {
+      disabled: false, //是否禁用
+      defaultValue: undefined, // 默认值
+      showSearch: false, // 是否显示搜索框，搜索选择的项的值，而不是文字
+      placeholder: "请选择",
+      clearable: false, // 是否显示清除按钮
+      dynamicKey: "areadata",
+      dynamic: true,
+      options: []
+    },
+    model: "",
+    key: "",
+    rules: [
+      {
+        required: false,
+        message: "必填项"
+      }
+    ]
   }
 ];
 
